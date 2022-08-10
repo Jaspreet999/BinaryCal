@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-08"/>
+        <title>Binary calculator</title>
+        <link rel="stylesheet" href="style.css" >
+        
+    </head>
+    <body>
+        <header>
+            <h1 class="header">Binary Calculator</h1>
+        </header>
+        
+        <div class="data">
+            <label>Choose operation</label>
+            <select name="operation" id="operation" class="operation">
+                <option name="or" value="or">OR</option>
+                <option name="and" value="and">AND</option>
+                <option name="negation" value="negation">NEGATION</option>
+                <option name="nor" value="nor">NOR</option>
+                <option name="nand" value="nand">NAND</option>
+                <option name="xor" value="xor">XOR</option>
+                <option name="xnor" value="xnor">XNOR</option>
+            </select>
+        </div>
+
+        <div class="input-field">
+            <div>
+                <h4>Enter the Inputs</h4>
+            </div>
+            <div>
+                <input type="text" placeholder="enter first binary" required id="firstValue" name="firstValue">
+            </div>
+            <div>
+                <input type="text" placeholder="enter second binary" required id="secondValue" name="secondValue">
+            </div>
+
+            <div>
+                <button type="submit" id="submit">claculate</button>
+            </div>
+        
+        
+        
+        </div>
+        
+
+        <div class="result">
+            <h2 id="resultDisplay">19696</h2>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
