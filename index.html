@@ -29,14 +29,14 @@
                 <h4>Enter the Inputs</h4>
             </div>
             <div>
-                <input type="text" placeholder="enter first binary" required id="firstValue" name="firstValue">
+                <input type="number" placeholder="enter first binary" required id="firstValue" name="firstValue">
             </div>
             <div>
-                <input type="text" placeholder="enter second binary" required id="secondValue" name="secondValue">
+                <input type="number" range="0-9" placeholder="enter second binary" required id="secondValue" name="secondValue">
             </div>
 
             <div>
-                <button type="submit" id="submit">claculate</button>
+                <button type="submit" id="submit">calculate</button>
             </div>
         
         
@@ -45,7 +45,7 @@
         
 
         <div class="result">
-            <h2 id="resultDisplay">19696</h2>
+            <h2 id="resultDisplay">Result : </h2>
         </div>
         <script src="index.js"></script>
     </body>
