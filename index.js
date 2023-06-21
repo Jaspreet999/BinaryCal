@@ -64,7 +64,7 @@ function checkValue(a){
 
 //event listener for operation
 operation.addEventListener('change',(event)=>{
-    console.log('iubf')
+    
       if(operation.value == "negation" || operation.value == "convertToDec"){
         secondValue.style.visibility = 'hidden'
       }else{
